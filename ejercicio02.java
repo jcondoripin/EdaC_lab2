@@ -27,8 +27,7 @@ public class ejercicio02 {
 
         for (int i = 0; i < length; i++) {
             aux = (int)(Math.random()*10 +1);
-            matriz.add(aux);
-                                
+            matriz.add(aux);                                
         }
         return matriz;
     }
